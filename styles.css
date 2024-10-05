@@ -1,0 +1,84 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+header {
+    background-color: purple;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    padding-bottom: 0.5em;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    gap: 2em;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Main Content */
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+.blog-posts {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    max-width: 900px;
+}
+
+.post {
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+}
+
+.post h2 {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+/* JavaScript Task Section */
+.js-tasks {
+    margin-top: 2em;
+}
+
+.js-tasks button {
+    margin: 1em;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
